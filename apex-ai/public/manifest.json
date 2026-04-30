@@ -1,0 +1,56 @@
+{
+  "name": "APEX Executive Assistant",
+  "short_name": "APEX",
+  "description": "Your AI-powered Chief of Staff — plan, prioritize, and execute like a high-performance executive.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#06060f",
+  "theme_color": "#0a0a14",
+  "categories": ["productivity", "business"],
+  "icons": [
+    {
+      "src": "/apex-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apex-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Task",
+      "short_name": "Add Task",
+      "description": "Quickly add a new task",
+      "url": "/tasks?new=1",
+      "icons": [{ "src": "/apex-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Today's Plan",
+      "short_name": "Today",
+      "description": "View today's schedule",
+      "url": "/today",
+      "icons": [{ "src": "/apex-icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ask APEX",
+      "short_name": "APEX AI",
+      "description": "Chat with your AI assistant",
+      "url": "/assistant",
+      "icons": [{ "src": "/apex-icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Dashboard — Command Center"
+    }
+  ]
+}

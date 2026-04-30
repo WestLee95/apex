@@ -116,7 +116,7 @@ APEX supports sign-in via Google OAuth through Supabase.
 
 > ⚠️ **Important — Whitelisted users only**
 >
-> Until the Google OAuth app is verified and published, sign-in is restricted to explicitly approved test accounts. Any Google account **not** on the whitelist will receive a `403: access_denied` error — no exceptions, no negotiations.
+> Until the Google OAuth app is verified and published, sign-in is restricted to explicitly approved test accounts. Any Google account **not** on the whitelist will receive a `403: access_denied` error.
 >
 > **To add a test user:**
 > 1. Go to [Google Cloud Console](https://console.cloud.google.com) → **APIs & Services → OAuth consent screen**
